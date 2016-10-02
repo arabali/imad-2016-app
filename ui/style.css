@@ -20,3 +20,9 @@ body {
     height: 200px;
 }
 
+p{
+    font-family:arial;
+    color:red;
+    margin:auto;
+    text-outline:dotted;
+}
