@@ -21,7 +21,8 @@ p {
     color:red;
    margin:150px 50px 150px 50px;
    border-style:outset;
-   padding:100px 100px;
-   
+     height:200px;
+   width:50px;
+   background-color:lightblue;
    
 }
