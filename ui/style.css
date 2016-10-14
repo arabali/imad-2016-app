@@ -28,7 +28,7 @@ p {
    float:right;
    
 }
-div
+body
 {
-    background-color:red;
+    background-image:url("ui/madi.png");
 }
