@@ -26,4 +26,9 @@ p {
    background-color:lightblue;
    text-transform:uppercase;
    float:right;
+   
+}
+div
+{
+    background-color:red;
 }
