@@ -23,7 +23,7 @@ var count=0;
 
  app.get('/count', function (req, res) {
   count=count + 1;
-  app.res(count.tostring())};
+  res.send(count.toString())};
    
 
 
