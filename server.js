@@ -19,6 +19,14 @@ app.use(morgan('combined'));
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
+var count=0;
+
+ app.get('/count', function (req, res) {
+  count=count + 1;
+  app.res(count.tostring())};
+   
+
+
 
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
