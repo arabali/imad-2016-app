@@ -11,6 +11,10 @@ app.use(morgan('combined'));
    
  });
  
+ app.get('/code/files', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'sa.html'));
+   
+ });
  
  app.get('/sa', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'sa.html'));
