@@ -17,7 +17,10 @@ app.use(morgan('combined'));
   res.sendFile(path.join(__dirname, 'ui', 'sa.html'));
    
  });
- 
+  app.get('/sa4', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'sa4.html'));
+   
+ });
  
  
   app.get('/sa3', function (req, res) {
