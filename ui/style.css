@@ -23,7 +23,12 @@ p {
     background-color:lightblue;
    text-transform:uppercase;
    
-   
+}
+
+.container
+{
+    margin:10px 150px 50px 150px;
+    
 }
 div
 {
