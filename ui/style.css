@@ -28,6 +28,8 @@ p {
 .container
 {
     margin:10px 200px 50px 200px;
+    color:green;
+    background-color:lightblue;
     
 }
 div
